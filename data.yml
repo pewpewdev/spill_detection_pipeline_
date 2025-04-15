@@ -1,0 +1,6 @@
+path: /Users/cilvosimon/Desktop/spill_detection/images 
+train: /Users/cilvosimon/Desktop/spill_detection/images/train
+val: /Users/cilvosimon/Desktop/spill_detection/images/val
+
+nc: 1
+names: ['spill']

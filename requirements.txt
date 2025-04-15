@@ -1,0 +1,32 @@
+# Core Libraries
+numpy==1.26.4
+opencv-python==4.9.0.80
+Pillow==10.2.0
+matplotlib==3.8.3
+seaborn==0.13.2
+tqdm==4.66.2
+
+# PyTorch (used for YOLOv5n/YOLOv8m via Ultralytics, and optionally U-Net if PyTorch-based)
+torch==2.2.1
+torchvision==0.17.1
+einops==0.8.1
+
+# TensorFlow (for U-Net if implemented in TF)
+tensorflow==2.18.0
+
+# YOLOv5n & YOLOv8m (via Ultralytics package)
+ultralytics==8.1.26
+
+# Annotation & Visualization
+labelme==5.4.1
+imgviz==1.7.6
+
+# Data Augmentation
+albumentations==2.0.5
+scikit-learn==1.4.2
+scipy==1.13.0
+
+# Utility Packages
+gdown==5.2.0
+pycocotools==2.0.7
+PyYAML==6.0.1
